@@ -1,6 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  allowedDevOrigins: ['192.168.1.3'],
+  
   /* config options here */
   experimental: {
     agentFeedback: true,
@@ -17,4 +19,6 @@ const nextConfig: NextConfig = {
   },
 };
 
+
 export default nextConfig;
+
